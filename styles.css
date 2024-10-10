@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header {
+    height: 100vh;
+    width: 100%; 
+   background-image: url(photo-1687033826405-9d922c28d54a.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: auto; 
+   color: rgb(245, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+   font-size: 20px;
+   padding: 10px 20px;
+   color: white;
+   position: relative;
+
+}
+.menu a:before {
+    content:' ' ;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 0%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+
+}
+.menu a:hover:before {
+    width: 90%;
+}
+.Register a{
+    text-decoration: none;
+   font-size: 20px;
+   padding: 10px 20px;
+   color: white;
+   background-color: indianred;
+   border-radius: 8px;
+   transition: o.4s;
+
+}
+.Register a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+
+}
+.Rooms {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+}
+
+.Rooms span{
+    letter-spacing: 5px;
+
+}
+.Rooms h1{
+    font-size: 3em;
+}
+.Rooms a{
+    text-decoration: none;
+    background-color: indianred;
+    color: aliceblue;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.Rooms a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+    
